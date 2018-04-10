@@ -68,7 +68,7 @@
 							<applicationName>${project.artifactId}-dev</applicationName>
 							<workerType>Micro</workerType>
 							<properties>
-								<https.port>${https.port}</https.port>
+								<https.port>8081</https.port>
 								<env>dev</env>																
 							</properties>
 						</configuration>
