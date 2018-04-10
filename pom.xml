@@ -65,11 +65,11 @@
 							<!-- <region>${region}</region> -->
 							<targetType>server</targetType>
 							<redeploy>true</redeploy>
-							<applicationName>${project.artifactId}-${env}</applicationName>
+							<applicationName>${project.artifactId}-dev</applicationName>
 							<workerType>Micro</workerType>
 							<properties>
 								<https.port>${https.port}</https.port>
-								<env>${env}</env>																
+								<env>dev</env>																
 							</properties>
 						</configuration>
 						<executions>
